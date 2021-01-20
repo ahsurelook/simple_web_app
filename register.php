@@ -1,13 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	
+	<title>Register</title>
+</head>
+<body>
+
 <?php
-	include_once 'include/header.i.php'
+	include_once 'include/register.i.php'
 ?>
 
 
-if(){
-	
-}
 
 
+<?php
+	include_once 'include/header.i.php'
+?>
 
 	<form action="include/register.i.php" method="POST">
 		<input type="text" name="usr" placeholder="username">
@@ -16,11 +27,6 @@ if(){
 		<input type="submit" name="submit">
 		<input type="reset" name="reset">
 	</form>
-
-
-
-
-
 
 <?php
 	include_once 'include/footer.i.php'

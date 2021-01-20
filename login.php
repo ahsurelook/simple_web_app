@@ -1,5 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	
+	<title>Login</title>
+</head>
+<body>
+
 <?php
-	include_once 'include/header.php'
+	include_once 'include/header.i.php'
 ?>
 
 
@@ -18,5 +29,5 @@
 
 
 <?php
-	include_once 'include/footer.php'
+	include_once 'include/footer.i.php'
 ?>

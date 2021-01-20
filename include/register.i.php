@@ -1,6 +1,6 @@
 <?php
 
-if(isset($_POST['submit'])){
+if(isset($_POST['submit']){
 	echo 'User pressed submit button from register.php';
 
 	$usr = $_POST['name'];
@@ -30,6 +30,6 @@ if(isset($_POST['submit'])){
 
 }
 else{
-	header("location: ../register.php ")
+	header("location: ../register.php ");
 	exit();
 }
